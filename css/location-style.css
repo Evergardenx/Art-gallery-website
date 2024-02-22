@@ -1,0 +1,88 @@
+#home-button .button-arrows {
+    float: left;
+}
+
+#home-button .button-text{
+    float: right;
+    margin: 24px 35px 24px 0;
+}
+
+#home-button {
+    left: 156px;
+    width: 12rem;
+}
+
+#home-button:hover .button-arrows{
+    background-color: var(--black-color);
+}
+
+#home-button:hover {
+    background-color: var(--brown-color);
+}
+
+#map {
+    width: 100%;
+    height: auto;
+    line-height: 0;
+}
+
+#map-wrapper {
+    line-height: 0;
+}
+
+#location {
+    width: 48.65%;
+}
+
+#location h4 {
+    color: var(--brown-color);
+}
+
+#location p {
+    padding: 16px 0;
+}
+
+.brown-block {
+    background-color: var(--brown-color);
+    color: var(--black-color);
+}
+
+.svg-social-icons-black{
+    fill: var(--black-color);
+}
+
+#fb-icon-svg-white:hover {
+    fill: var(--white-color);
+}
+
+#ig-icon-svg-white:hover {
+    fill: var(--white-color);
+}
+
+#tw-icon-svg-white:hover {
+    fill: var(--white-color);
+}
+
+@media (max-width: 768px) { 
+    #home-button {
+        left: 39px;
+    }
+}
+
+@media (max-width: 375px) { 
+    #home-button {
+        left: 0;
+    }
+
+    #location {
+        width: 100%;
+    }
+
+    #location h4 {
+        padding: 48px 0;
+    }
+    
+    #location p {
+        padding: 10px 0;
+    }
+}
